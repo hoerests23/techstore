@@ -10,7 +10,7 @@ import java.util.Date;
 @Component
 public class JwtUtil {
 
-    private static final String SECRET = "techstore-clavesecreta23-faltaban-caracteres"; //tiene que ser de 32 caracteres y antes daba error xd
+    private static final String SECRET = "techstore-clavesecreta23-faltaban-caracteres"; //32 caracteres
     private static final long EXPIRATION = 3600000; //en milisegundos ( 1 hora) 
 
     private Key getKey() {
